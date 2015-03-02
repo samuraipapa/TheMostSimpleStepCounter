@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					6C5251591AA3599D004B9292 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 3FG36K8Z78;
 					};
 					6C52516E1AA3599D004B9292 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -336,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TheMostSimpleStepCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TheMostSimpleStepCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +408,7 @@
 				6C52517B1AA3599D004B9292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C52517C1AA3599D004B9292 /* Build configuration list for PBXNativeTarget "TheMostSimpleStepCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +417,7 @@
 				6C52517E1AA3599D004B9292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
