@@ -105,7 +105,6 @@ class ViewController: UIViewController {
             }
         }
     
-    // SetUp Motion Manager
     
     
     //  Fill Out Historic Steps and Distance
@@ -119,6 +118,8 @@ class ViewController: UIViewController {
     println("now is \(now)")
     println("twoDaysAgo is \(twoDaysAgo)")
 
+        
+        
         
         myPedometer.queryPedometerDataFromDate(last24hrs, toDate: now, withHandler: { data, error in
             
@@ -155,14 +156,11 @@ class ViewController: UIViewController {
             }        })
 
     }
-
     func displayHistoricData(){
      labelLast24Hrs.text = stepData24hrs + "Steps  / " +  distanceData24hr + " Miles"
      labelLast7Days.text = stepData7Days + "Steps  / " + distanceData7Days + " Miles"
         
     }
-    
-    
     
     // Get Live Step and Distance Data
     func getLiveStepData(){
